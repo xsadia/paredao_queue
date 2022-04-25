@@ -6,3 +6,4 @@
 - clone this repo
 - add a .env file to the producer and receiver directories following the .env.example file
 - run the command "go run cmd/cmd.go" inside each directory
+- send a post request to localhost:8000/vote with a body containing a json with paredao_id and emparedado_id(both ints)
